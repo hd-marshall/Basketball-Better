@@ -1,6 +1,6 @@
-import './App.css';
+import './compenants/settings.css';
 
-function App() {
+function settings() {
   return (
     <div className="App">
       <body>
@@ -16,9 +16,7 @@ function App() {
         </header>
     
         <section class="hero">
-            <h1>Welcome to My Website</h1>
-            <p>Your go-to place for amazing content.</p>
-            <a href="#" class="cta-button">Get Started</a>
+
         </section>
     
         <footer>
@@ -29,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default settings;
