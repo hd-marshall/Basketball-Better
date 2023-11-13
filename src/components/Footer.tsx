@@ -1,4 +1,4 @@
-import './Footer.css'
+import '../styles/Footer.css';
 
 interface FooterProps {
     companyName: string;
@@ -16,6 +16,7 @@ const Footer: React.FC<FooterProps> = ({ companyName }) => {
         <div className="footer-header">About Us</div>
         <div className="footer-header">Contact</div>
         <div className="footer-header">Privacy Policy</div>
+        <div className="footer-header">Terms of Use</div>
         {/* Add more headers as needed */}
       </div>
     </footer>

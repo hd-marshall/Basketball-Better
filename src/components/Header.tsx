@@ -1,4 +1,4 @@
-import './Header.css';  // Import a CSS file for styling (create this file)
+import '../styles/Header.css';  // Import a CSS file for styling (create this file)
 
 const Header: React.FC = () => {
   return (

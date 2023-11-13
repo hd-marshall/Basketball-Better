@@ -1,16 +1,16 @@
-import './App.css'
-import Footer from './components/Footer';
+import './styles/App.css';
 import Hero from './components/Hero';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <body>
+    <div>
       <Header />
       <Hero />
       <Footer companyName='BasketballBetter' />
-    </body>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;

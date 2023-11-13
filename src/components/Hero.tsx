@@ -1,4 +1,4 @@
-import './Hero.css';  // Import a CSS file for styling (create this file)
+import '../styles/Hero.css';  // Import a CSS file for styling (create this file)
 
 const Hero: React.FC = () => {
   return (
