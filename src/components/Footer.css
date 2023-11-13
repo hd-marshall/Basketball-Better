@@ -1,0 +1,45 @@
+/* components/Footer.css */
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;  /* Dark background color */
+    color: #fff;  /* Light text color */
+    width: 100%;
+}
+
+.footer-left {
+display: flex;
+align-items: center;
+}
+
+.footer-left span {
+font-size: 1.5rem;
+margin-right: 5px;
+}
+
+.footer-right {
+display: flex;
+}
+
+.footer-header {
+margin-right: 15px;
+cursor: pointer;
+font-size: 14px;
+transition: color 0.3s ease;  /* Smooth color transition on hover */
+
+/* Style the headers */
+&:hover {
+    color: #ffd700;  /* Change color on hover */
+}
+}
+
+.footer-header-logo {
+    margin-right: 15px;
+    font-size: 14px;
+}
