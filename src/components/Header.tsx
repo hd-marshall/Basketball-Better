@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';  // Import a CSS file for styling (create this file)
 
 const Header: React.FC = () => {
@@ -5,9 +6,9 @@ const Header: React.FC = () => {
     <header className="header-container">
       <div className="header-left">
         {/* Navigation options on the left */}
-        <div className="header-option">Home</div>
-        <div className="header-option">About</div>
-        <div className="header-option">Contact</div>
+        <Link className="header-option" to='/'>Home</Link>
+        <Link className="header-option" to='/about'>About</Link>
+        <Link className="header-option" to='/ladder'>Ladder</Link>
       </div>
       <div className="header-center">
         {/* Generic headers in the center */}

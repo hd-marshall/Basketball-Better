@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
 
 interface FooterProps {
@@ -13,8 +14,9 @@ const Footer: React.FC<FooterProps> = ({ companyName }) => {
       </div>
       <div className="footer-right">
         {/* Generic headers */}
-        <div className="footer-header">About Us</div>
-        <div className="footer-header">Contact</div>
+        <Link className="header-option" to='/'>Home</Link>
+        <Link className="header-option" to='/about'>About</Link>
+        <Link className="header-option" to='/contact'>Contact</Link>
         <div className="footer-header">Privacy Policy</div>
         <div className="footer-header">Terms of Use</div>
         {/* Add more headers as needed */}
