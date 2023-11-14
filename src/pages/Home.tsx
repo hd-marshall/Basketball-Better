@@ -29,17 +29,12 @@ const Home: React.FC = () => {
 
       <div className="home-container">
         <div className="about-us-container">
-          <Link to="/about-us" className="about-us-link">
-            About Us
-          </Link>
+          <Link to="/about-us" className="about-us-link">About Us</Link>
         </div>
-
         <div className="search-container">
           <h2>Find a League</h2>
           <SearchBar />
         </div>
-
-        {/* Add your home page content here */}
       </div>
     </div>
   );
