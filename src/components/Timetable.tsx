@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { format } from 'date-fns';
 import '../styles/Timetable.css';
 
 const league: string = "League 1";
@@ -8,6 +9,10 @@ const numberOfRounds: number = 10;
 const Timetable: React.FC = () => {
 
     const rounds: number[] = Array.from({ length: numberOfRounds }, (_, index) => index + 1);
+
+    const currentDate = new Date();
+    const formattedDate = format(currentDate, 'dd/MM/yyyy');
+    const formattedTime = format(currentDate, 'hh:mm a');
 
     return (
         <section className='timetable-wrapper'>
@@ -28,7 +33,8 @@ const Timetable: React.FC = () => {
                 ))}
             </div>
             <div id='round-time'>
-
+                <p>Current Date: {formattedDate}</p>
+                <p>Current Time: {formattedTime}</p>
             </div>
             <div id='teams-versing'>
 
