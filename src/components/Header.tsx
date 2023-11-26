@@ -9,6 +9,7 @@ const Header: React.FC = () => {
         <Link className="header-option" to='/'>Home</Link>
         <Link className="header-option" to='/about'>About</Link>
         <Link className="header-option" to='/ladder'>Ladder</Link>
+        <Link className="header-option" to='/timetable'>Ladder</Link>
       </div>
       <div className="header-center">
         {/* Generic headers in the center */}
